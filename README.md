@@ -2,8 +2,9 @@
 
 ### PHP
 ```php
-# 1行
-$line = fgets(STDIN);
+# 1行 tirm付き
+$line = trim(fgets(STDIN));
+
 
 # 整数の入力
 fscanf(STDIN, "%d", $a);

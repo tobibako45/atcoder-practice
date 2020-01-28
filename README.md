@@ -17,6 +17,13 @@ fscanf(STDIN, "%d %d %d", $a, $b, $c);
 fscanf(STDIN, "%s %s %s", $a, $b, $c);
 ```
 
+# 半角スペースを区切りとして、配列に格納
+```$xslt
+$arr = explode(" ", fgets(STDIN));
+echo $arr[0]; // 1
+echo $arr[1]; // 2
+echo $arr[2]; // 3
+```
 
 
 ### Ruby
